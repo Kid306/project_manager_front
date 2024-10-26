@@ -1,0 +1,156 @@
+.login_container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(#577388, #1717d1);
+    // background-image: url('@/assets/image/login_bg2.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_content {
+    width: 1200px; 
+    min-height: 630px;
+    background: #FCFCFE;
+    border-radius: 30px;
+    display: flex;
+    .left {
+        flex: 1;
+        background-image: url('@/assets/image/login_bg.png');
+        background-position: -68px -58px;
+        background-size: 1200px 650px;
+        background-repeat: no-repeat;
+    }
+    .right {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .theme {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            bottom: 10px;
+            right: 40px;
+            font-size: 30px;
+            color: #1D1D1D;
+            font-weight: bold;
+            img {
+                width: 58px;
+                height: 58px;
+                margin-right: 10px;
+            }
+        }
+        .logo {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            top: 10px;
+            right: 40px;
+            font-size: 30px;
+            color: #1D1D1D;
+            font-weight: bold;
+            img {
+                width: 58px;
+                height: 58px;
+                margin-right: 10px;
+            }
+        }
+        .login_box {
+            width: 418px;
+            border: 1px solid #F1F1F1;
+            box-shadow: 1px 7px 25px 2px rgba(22, 22, 93, 0.04);
+            border-radius: 5px 5px 5px 5px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            .login_box_content {
+                padding: 28px 30px 16px 30px;
+                .top {
+                    display: flex;
+                    justify-content: space-between;
+                    height: 40px;
+                    .title {
+                        font-weight: bold;
+                        color: #40485B;
+                        font-size: 35px;
+                    }
+                    span {
+                        color: #40485B;
+                        line-height: 40px;
+                    }
+                }
+            }
+            .login_form {
+                margin-top: 28px; 
+                .smsCode {
+                    width: 100%;
+                } 
+                .sendCode { 
+                    width: 100%; 
+                    border-radius: 0px;
+                    background-color: #FE9A00;
+                    .text {
+                        color: #FFFFFF;
+                        font-size: 14px;
+                    }
+                }
+                .oper {
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    color: #40485B;
+                    font-size: 14px;
+                }
+                .login {
+                    margin-top: 20px;
+                    width: 100%;
+                    background-color: #FE9A00;
+                    height: 42px;
+                    border-radius: 0px;
+                    .text {
+                        color: #FFFFFF;
+                        font-size: 16px;
+                    }
+                }
+                .register {
+                    margin-top: 10px;
+                    width: 100%;
+                    background-color: #FE9A00;
+                    height: 42px;
+                    border-radius: 0px;
+                    .text {
+                        color: #FFFFFF;
+                        font-size: 16px;
+                    }
+                }
+            }
+            
+            .bottom {
+                margin-top: 40px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center; 
+                .other {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    cursor: pointer;
+                   img {
+                        width: 28px;
+                        height: 28px;
+                   }
+                   img:nth-child(1) {
+                       margin-right: 20px;
+                   }
+                } 
+            }
+
+
+        }
+
+    }
+} 

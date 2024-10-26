@@ -1,0 +1,169 @@
+
+.field-box {   
+  display:inline-flex;
+  align-items: center;  
+  cursor: pointer;       
+   align-items: center; /* 垂直居中（如果需要）*/ ;
+}   
+  
+.field-box .field-info {  
+  opacity: 1;   
+  width: 100%; 
+  min-width: 120px; 
+}    
+.field-box .field-oper-box.relative{
+  position: relative;
+} 
+.field-box .field-oper { 
+  
+  z-index: 2000;
+  overflow: hidden;
+  opacity: 0;   
+  position: absolute;    
+  min-width: 120px;  
+  width: 100%;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);   
+
+}  
+.field-box .relative .field-oper { 
+  
+  z-index: 2000;
+  overflow: hidden;
+  opacity: 0;   
+  position: absolute;    
+  min-width: 120px;  
+  width: 100%;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-100%, -50%);   
+
+}  
+  
+.field-box:hover .field-avater.enabled {  
+  opacity: 0;
+}  
+  
+.field-box:hover .field-info.enabled {     
+  opacity:0; 
+}  
+  
+.field-box:hover .field-oper.enabled {   
+  opacity: 1;
+}  
+  
+.field-box .field-info.hidden {  
+  opacity: 0;
+}  
+  
+.field-box .field-oper.nohidden {  
+  opacity: 1;
+}
+ 
+
+
+
+
+
+
+.field-box-x {     
+  display:inline-flex; 
+  cursor: pointer;    
+  align-items: center; /* 垂直居中（如果需要）*/ ; ;
+}  
+   
+  
+.field-box-x .field-info { 
+  z-index: 1;
+  overflow: hidden; 
+  opacity: 1;   
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+  min-width: 120px; 
+  display: flex;  
+   align-items: center; /* 垂直居中（如果需要）*/ ;
+    .field-avater {  
+
+      background-color: #ff9f73;  
+    }
+    .info-box { 
+      .field-label {
+        min-width: 120px; 
+        max-height: 25px;
+      }
+      .field-value {
+        min-width:120px; 
+        max-height: 25px;
+      }  
+    } 
+}  
+  
+.field-box-x .field-oper-box {
+  position: relative;  
+}
+.field-box-x .field-oper {
+  z-index: 2000;  
+  opacity: 0; 
+  position: absolute;    
+  width: 100%;
+  min-width: 160px; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-100%, -50%);   
+}  
+  
+.field-box-x:hover .field-avater.enabled {  
+  opacity: 0;
+}  
+  
+.field-box-x:hover .field-info.enabled {   
+  opacity:0; 
+}  
+  
+.field-box-x:hover .field-oper.enabled {   
+  opacity: 1;
+}  
+  
+.field-box-x .field-info.hidden {  
+  opacity: 0;
+}  
+  
+.field-box-x .field-oper.nohidden {  
+  opacity: 1;
+} 
+
+.dashed-border {
+  border-style:dotted;
+  border-color: #c0c0c0; /* 边框颜色，可以根据需要修改 */
+  border-width: 2px; /* 边框宽度，可以根据需要修改 */
+}
+.avatar-container {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  .avatar-wrapper {
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .user-avatar {
+          height: 30px;
+          width: 30px;
+          border-radius: 50%;
+          margin-right: 12px;
+      }
+      .username{
+          color: #7D7D7D;
+          font-size: 0.75rem;
+      }
+      .caret-bottom {
+          font-size: 22px;
+      }
+  }
+}
+.my-select{ 
+  width:100%;
+  min-width:120px; 
+}

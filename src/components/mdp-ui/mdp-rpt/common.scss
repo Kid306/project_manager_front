@@ -1,0 +1,47 @@
+
+  .row-box{ 
+		position: relative;
+    margin-left: 20px;  
+    .rpt-title{
+        font-weight: 600;
+		font-size: x-large;
+		visibility: visible;
+        text-align: center;
+    }   
+	.title{
+		font-weight: 600;
+		font-size: large;
+		visibility: visible;
+	} 
+	.remark{ 
+		visibility: visible;
+	} 
+	.input {
+		visibility: hidden;
+		z-index: 10000;  
+		top: 0%; 
+		left:0%;  
+		position:absolute;  
+	}
+	.params-btn { 
+		z-index: 10000;   
+		top: 50%; 
+		left:100%;  
+		position:absolute;   
+		transform: translate(-100%, -50%);   
+	}
+  }
+  .row-box.cfg:hover{
+    .rpt-title{
+        visibility: hidden;
+    }
+	.title{
+        visibility: hidden;
+	}
+	.remark{
+        visibility: hidden;
+	} 
+	.input{
+		visibility: visible;
+	}
+  }  
