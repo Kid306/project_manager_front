@@ -685,7 +685,7 @@ const previewProcessJson = () => {
     previewModelVisible.value = true
   })
 }
-/* ------------------------------------------------ 唛盟开源 methods ------------------------------------------------------ */
+/* ------------------------------------------------ 开源 methods ------------------------------------------------------ */
 const processSave = async () => {
   // console.log(bpmnModeler, 'bpmnModelerbpmnModelerbpmnModelerbpmnModeler')
   const { err, xml } = await bpmnModeler.saveXML()

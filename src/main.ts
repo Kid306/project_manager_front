@@ -47,24 +47,24 @@ import Logger from '@/utils/Logger'
 
 import VueDOMPurifyHTML from 'vue-dompurify-html' // 解决v-html 的安全隐患
 
-//唛盟基础组件
+//基础组件
 import MdpComponents from '@/components/mdp-ui/index.js' 
 
-//唛盟拓展的组件
+//拓展的组件
 import MdpExtComponents from '@/components/mdp-ui-ext/index.js' 
 
 
-//唛盟拓展的组件
+//拓展的组件
 import XmComponents from '@/views/xm/index.js' 
 
-//唛盟拓展的组件
+//拓展的组件
 //import MdpDesigner from '@/views/mdp/form/formDef/components/index.js' 
  
 
 //import DataV from '@/views/datav/datav.js';
 
 
-//唛盟公共api
+//公共api
 import MdpPubApi from "@/api/mdp_pub";  
 
 // 如果您正在使用CDN引入，请删除下面一行。
@@ -94,16 +94,16 @@ const setupAll = async () => {
 
   setupAuth(app)
 
-  //注册唛盟公共组件
+  //注册公共组件
   app.use(MdpComponents)
-  //注册唛盟公共扩展组件
+  //注册公共扩展组件
   app.use(MdpExtComponents)  
-  //注册唛盟的全局公共函数$mdp
+  //注册的全局公共函数$mdp
   app.config.globalProperties.$mdp=MdpPubApi 
-  //注册唛盟表单设计器
+  //注册表单设计器
   //app.use(MdpDesigner) 
 
-    //注册唛盟xm公共组件
+    //注册xm公共组件
     app.use(XmComponents)
 
   // const module = Object.keys(DataV);

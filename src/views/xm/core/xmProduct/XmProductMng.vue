@@ -372,7 +372,7 @@
 			<el-tour-step
 				:target="$refs['kanbanBtn'].$el"
 				title="看板展示"
-				description="这里以看板的形式展示数据，唛盟大部分的表格都是支持看板展示数据的"
+				description="这里以看板的形式展示数据，大部分的表格都是支持看板展示数据的"
 			/>
 		</el-tour> 
 

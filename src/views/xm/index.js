@@ -2,10 +2,10 @@
  * 由于专业版与开源版分离，需要把专业版的某些组件注册为公共组件，方便开源版以公共组件方式引入，避免报错
  * 需要在 main.ts 中做如下操作
  
-    //唛盟拓展的组件
+    //拓展的组件
     import XmComponents from '@/views/xm/index.js' 
 
-    //注册唛盟xm公共组件
+    //注册xm公共组件
     app.use(XmComponents)
 
     开源版：

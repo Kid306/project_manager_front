@@ -45,7 +45,7 @@ interface ImportMetaEnv {
   readonly VITE_MODULE_SCOPE:string[]
 
   /**
-   * 说明： VITE_CTX_*为定义唛盟各个子系统的context;
+   * 说明： VITE_CTX_*为定义各个子系统的context;
    * context指向子系统的微服务名称，spring.application.name
    * 
    * 1. 用于前端请求路径前缀映射，
@@ -91,7 +91,7 @@ interface ImportMetaEnv {
   //短信
   readonly VITE_CTX_SMS: string
 
-  //唛盟内置的应用购买模块订单 目前由lcode接管
+  //内置的应用购买模块订单 目前由lcode接管
   readonly VITE_CTX_MO: string
 
   //众包，目前由xm接管

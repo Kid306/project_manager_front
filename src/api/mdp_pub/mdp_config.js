@@ -1,6 +1,6 @@
 
   /**
-   * 说明： VITE_CTX_*为定义唛盟各个子系统的context;
+   * 说明： VITE_CTX_*为定义各个子系统的context;
    * 1. 用于前端请求路径前缀映射，
    *    前端页面一般部署在 ./{VITE_CONTEXT}/
    * 
@@ -95,12 +95,12 @@ export default {
   },
   //系统名称
   getSysName: function() {
-    return import.meta.env.VITE_APP_TITLE||'唛盟项目管理'
+    return import.meta.env.VITE_APP_TITLE||'项目管理'
   },
   getWxpubConfig:function(){
     var config={
       appid: import.meta.env.VITE_WXOPEN_APPID||'wx2671d5db8346b6fc',
-      appname:import.meta.env.VITE_APP_TITLE||'唛盟项目管理',
+      appname:import.meta.env.VITE_APP_TITLE||'项目管理',
       appType:'wxopen',
       scope:'snsapi_login'
     }

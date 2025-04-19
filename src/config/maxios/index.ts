@@ -1,5 +1,5 @@
 /**
- * 为了兼容唛盟平台原来的写法
+ * 为了兼容平台原来的写法
  */
 
 import { service } from '../axios/service'

@@ -4,7 +4,7 @@
 	</a>
 </p>
 <p align="center">
-	<strong>唛盟xm：涵盖项目规划、需求管理、开发迭代、版本控制、缺陷跟踪、测试管理、工时管理、效能分析等环
+	<strong>xm：涵盖项目规划、需求管理、开发迭代、版本控制、缺陷跟踪、测试管理、工时管理、效能分析等环
 节，实现项目全过程、全方位管理的一站式企业研发项目管理解决方案</strong>
 </p>
 
@@ -25,35 +25,35 @@
 - [后端服务](https://gitee.com/maimengcloud/xm-backend)
 - [体验环境](https://maimengcloud.com/xm)
   登陆界面上选择演示账号登陆(账号密码：demo-branch-01 888888)或者直接扫码登陆，无须注册  
-- 相关教程b站上搜素[唛盟9哥教你撸前后端代码](https://www.bilibili.com/video/BV111421S72r/?spm_id_from=333.337.search-card.all.click&vd_source=93be23d03863773d50b81112985b9237)
+- 相关教程b站上搜素[9哥教你撸前后端代码](https://www.bilibili.com/video/BV111421S72r/?spm_id_from=333.337.search-card.all.click&vd_source=93be23d03863773d50b81112985b9237)
 
-## 📢 简介[唛盟xm](/)
-唛盟企业级研发管理系统简称唛盟xm,属于唛盟生态的专业子系统之一，以研发管理为核心，涵盖项目规划、需求管理、开发迭代、版本控制、缺陷跟踪、测试管理、工时管理、效能分析等环节，实现全过程、全方位的研发管理。通过该系统，企业能够优化研发流程，提高研发效率，降低研发成本，提高市场竞争力。   
+## 📢 简介[xm](/)
+企业级研发管理系统简称xm,属于生态的专业子系统之一，以研发管理为核心，涵盖项目规划、需求管理、开发迭代、版本控制、缺陷跟踪、测试管理、工时管理、效能分析等环节，实现全过程、全方位的研发管理。通过该系统，企业能够优化研发流程，提高研发效率，降低研发成本，提高市场竞争力。   
 ## 💪 特点
 1. 全网唯一Vue3开源项目管理系统；前后端均有开源；MIT协议。  
-2. 基于唛盟低代码平台构建，二开、升级、维护都非常方便。  
+2. 基于低代码平台构建，二开、升级、维护都非常方便。  
 3. 业界新创的进度控制方法，进度流自底向上，从项目、产品双方向进行逐层自动汇总，管理者可以自顶向下逐级钻取。  
 项目线：由任务->多层计划->小组->项目->部门->企业  
 产品线：由任务->故事->特性->史诗->迭代->产品->部门->企业  
 4. 提供史上最全的关于项目管理的各种效能分析工具，全方位帮助你检测项目问题，预测项目风险，过程改进稳步向前推进，分析工具包括不限于人效分析、任务进度分析、测试进度分析等。
 5. 真正实现 项目管理->智能分析->过程改进->更好更高效管理 的闭环，能够帮助企业真正实现台账型管理向智能化管理的转变。
-6. 人效管理工具解决了业界难题：数据收集困难、计算不科学、不能真实反应真正人效等问题。唛盟xm能够让摸鱼者无处遁形，干事者光芒四射。
-7. 唛盟xm业界首创支持一个产品在多个项目同时实施，一个项目同时实施多个产品的模式。支持跨项目迭代产品。正因为此模式，让唛盟xm能够适应几乎所有的项目形态。
-8. 唛盟xm提供需求怎么做、产品如何规划、项目如何管理、测试如何开展等等解决方案。
-9. 唛盟xm业界首创无保存批量修改数据模式，彻底告别录数据难、修改数据难问题。
+6. 人效管理工具解决了业界难题：数据收集困难、计算不科学、不能真实反应真正人效等问题。xm能够让摸鱼者无处遁形，干事者光芒四射。
+7. xm业界首创支持一个产品在多个项目同时实施，一个项目同时实施多个产品的模式。支持跨项目迭代产品。正因为此模式，让xm能够适应几乎所有的项目形态。
+8. xm提供需求怎么做、产品如何规划、项目如何管理、测试如何开展等等解决方案。
+9. xm业界首创无保存批量修改数据模式，彻底告别录数据难、修改数据难问题。
 10. 字段级别的人性化日志记录方案，任何改动有迹可查。
 11. 提供强大的甘特图工具，需求、任务排班方便快捷有效。
-12. 唛盟xm3.0打通ai底层脉络，4.0将全面接入唛盟ai工程师(发明专利)，ai时刻即将来临，敬请期待。
+12. xm3.0打通ai底层脉络，4.0将全面接入ai工程师(发明专利)，ai时刻即将来临，敬请期待。
 
 
-## 📢 唛盟生态
+## 📢 生态
 
-💪唛盟生态遵循 <strong>“一个底座+N个专业子系统”</strong> 的架构，基于同一个底座的各个专业子系统可以任意组合形成一个大的业务系统。👉[聊聊唛盟生态1+n架构](https://www.bilibili.com/video/BV1BD421V7Bu/?spm_id_from=333.337.search-card.all.click&vd_source=93be23d03863773d50b81112985b9237)  
+💪生态遵循 <strong>“一个底座+N个专业子系统”</strong> 的架构，基于同一个底座的各个专业子系统可以任意组合形成一个大的业务系统。👉[聊聊生态1+n架构](https://www.bilibili.com/video/BV1BD421V7Bu/?spm_id_from=333.337.search-card.all.click&vd_source=93be23d03863773d50b81112985b9237)  
 
 ### 底座 mdp-core 
   [mdp-core](https://gitee.com/maimengcloud/mdp-core)   
 ### N个专业子系统
-| 唛盟子系统                        | 说明               | 版本     |
+| 子系统                        | 说明               | 版本     |
 |----------------------------------------------------------------------|------------------|--------|
 | [低代码、0代码](https://gitee.com/maimengcloud/mdp-lcode-ui-web)| 低代码、0代码框架           | 3.0.0 |
 | [账户、权限、组织管理](https://gitee.com/maimengcloud/mdp-lcode-backend/tree/master/mdp-sys)| 账户、权限、组织管理，支持多租户 | 3.0.0  |
@@ -633,10 +633,10 @@ api/xm, api/lcode, api/arc, api/workflow, api/tpa,等api配置，每个都是同
 ### 运维
 #### 日志查询
 日常查询问题，主要通过查询前后端日志，分析出具体原因，再进行针对性解决。
-唛盟平台具有多个子业务系统，每个子业务系统都有独立日志，一个前端请求，可能日志散落在多个日志文件，如何才能凑齐这些日志，进行统一分析交易执行情况，进而定位问题？  
-答复：唛盟平台在每个请求到达服务端的时候，会检测gloNo是否存在，如果不存在，则会自动创建一个gloNo,并注入到日志上下文中，并打印到每一行代码中，另外请求结束，还会把gloNo返回到前端，如果交易中间涉及调用其他子系统，同样会自动上送gloNo，对方交易子系统同样执行上诉逻辑。因此，可以看见，gloNo是能够把所有日志串联起来的。我们只需要在日志文件目录下执行grep命令即可找出对应日志  
+平台具有多个子业务系统，每个子业务系统都有独立日志，一个前端请求，可能日志散落在多个日志文件，如何才能凑齐这些日志，进行统一分析交易执行情况，进而定位问题？  
+答复：平台在每个请求到达服务端的时候，会检测gloNo是否存在，如果不存在，则会自动创建一个gloNo,并注入到日志上下文中，并打印到每一行代码中，另外请求结束，还会把gloNo返回到前端，如果交易中间涉及调用其他子系统，同样会自动上送gloNo，对方交易子系统同样执行上诉逻辑。因此，可以看见，gloNo是能够把所有日志串联起来的。我们只需要在日志文件目录下执行grep命令即可找出对应日志  
 操作步骤：  
-1.下面是典型的唛盟接口返回的数据结果集 gloNo就存放在res.data.tips.gloNo中。 
+1.下面是典型的接口返回的数据结果集 gloNo就存放在res.data.tips.gloNo中。 
 ```
 {
   "total" : 1,
@@ -647,7 +647,7 @@ api/xm, api/lcode, api/arc, api/workflow, api/tpa,等api配置，每个都是同
     "admUserid" : "4hinb8m16",
     "del" : "0",
     "budgetNouserAt" : null,
-    "productName" : "唛盟云-财务系统",
+    "productName" : "云-财务系统",
     "baselineId" : "2022-01-01-base-01", 
   }],
   "tips" : {
@@ -715,13 +715,13 @@ crontab -l
 
 
 ## 📝 常见问题  
- 唛盟xm基于唛盟低代码平台开发，问题都是共性的，请到[唛盟低代码](https://gitee.com/maimengcloud/mdp-lcode-ui-web)查看相关内容
+ xm基于低代码平台开发，问题都是共性的，请到[低代码](https://gitee.com/maimengcloud/mdp-lcode-ui-web)查看相关内容
 ## 💯 实践案例
 
 1. [低代码平台](https://maimengcloud.com/lcode)
 1. [系统管理](https://maimengcloud.com/lcode)
 2. [协同办公](https://maimengcloud.com/oa)
-3. [唛盟众包-网页](https://maimengcloud.com) 
+3. [众包-网页](https://maimengcloud.com) 
 3. [项目管理-网页](https://maimengcloud.com/xm) 
 4. 项目管理-小程序   
    <img src="./docs/images/index/mm_wxapp_qrcode.png" alt="drawing" width="200"/>
@@ -737,10 +737,10 @@ crontab -l
 
 ## 🐞 交流讨论 、反馈 BUG、提出建议等
 
-1. 快扫描下方左侧微信二维码和我们一起交流讨论吧！（备注 唛盟-mdp 进群） 
+1. 快扫描下方左侧微信二维码和我们一起交流讨论吧！（备注 -mdp 进群） 
 <img src="./docs/images/index/mm_wx_kf_qrcode.png" alt="drawing" width="200"/>
 
-2. 唛盟微信公众号查看一些基础教程  
+2. 微信公众号查看一些基础教程  
 <img src="./docs/images/index/mm_wxup_qrcode.png" alt="drawing" width="200"/>
 
 3. 反馈 BUG、提出建议，欢迎新建：[issues](https://gitee.com/maimengcloud/xm-ui-web/issues)，开发人员会不定时查看回复。
@@ -763,7 +763,7 @@ crontab -l
 
 ### 商业版与开源版对比
 
-注意：如果需要商业使用又不想带擎勤的版权说明，请联系唛盟客服申请版权授权
+注意：如果需要商业使用又不想带擎勤的版权说明，请联系客服申请版权授权
 #### 技术支持与服务 
 <img src="./docs/images/bizz/support_service.png" alt="drawing"/>
 
@@ -773,60 +773,60 @@ crontab -l
 
 ## 📢 视频教程(2.**的视频教程)   
 
-[0.1-唛盟-唛盟生态1+n架构无限扩展、丝滑部署、永不下线](https://www.bilibili.com/video/BV1BD421V7Bu/?spm_id_from=333.788.recommend_more_video.1&vd_source=93be23d03863773d50b81112985b9237)  
+[0.1--生态1+n架构无限扩展、丝滑部署、永不下线](https://www.bilibili.com/video/BV1BD421V7Bu/?spm_id_from=333.788.recommend_more_video.1&vd_source=93be23d03863773d50b81112985b9237)  
 
-[1.唛盟-总体介绍](https://www.bilibili.com/video/BV111421S72r/?vd_source=93be23d03863773d50b81112985b9237)  
+[1.-总体介绍](https://www.bilibili.com/video/BV111421S72r/?vd_source=93be23d03863773d50b81112985b9237)  
 
-[2.唛盟-工程结构介绍](https://www.bilibili.com/video/BV1Nu4m1T7hc/?spm_id_from=333.788.recommend_more_video.0&vd_source=93be23d03863773d50b81112985b9237)  
+[2.-工程结构介绍](https://www.bilibili.com/video/BV1Nu4m1T7hc/?spm_id_from=333.788.recommend_more_video.0&vd_source=93be23d03863773d50b81112985b9237)  
 
-[3.唛盟-工程结构-后端内部结构介绍](https://www.bilibili.com/video/BV1Lj421d7Xb/?spm_id_from=333.788.recommend_more_video.3&vd_source=93be23d03863773d50b81112985b9237)  
+[3.-工程结构-后端内部结构介绍](https://www.bilibili.com/video/BV1Lj421d7Xb/?spm_id_from=333.788.recommend_more_video.3&vd_source=93be23d03863773d50b81112985b9237)  
 
-[4.唛盟-工程结构-前端内部结构介绍](https://www.bilibili.com/video/BV1ut421V7un/?spm_id_from=333.788.recommend_more_video.2&vd_source=93be23d03863773d50b81112985b9237)  
+[4.-工程结构-前端内部结构介绍](https://www.bilibili.com/video/BV1ut421V7un/?spm_id_from=333.788.recommend_more_video.2&vd_source=93be23d03863773d50b81112985b9237)  
 
-[5.唛盟-智能表单-代码生成等模块介绍](https://www.bilibili.com/video/BV1UH4y1p7uJ/?spm_id_from=333.788.recommend_more_video.16&vd_source=93be23d03863773d50b81112985b9237)  
+[5.-智能表单-代码生成等模块介绍](https://www.bilibili.com/video/BV1UH4y1p7uJ/?spm_id_from=333.788.recommend_more_video.16&vd_source=93be23d03863773d50b81112985b9237)  
 
-[5.0-唛盟-前后端开发新手攻略](https://www.bilibili.com/video/BV1aC411t7rG/?vd_source=93be23d03863773d50b81112985b9237)
+[5.0--前后端开发新手攻略](https://www.bilibili.com/video/BV1aC411t7rG/?vd_source=93be23d03863773d50b81112985b9237)
 
-[6.唛盟-用户、权限、菜单、组织管理等模块介绍](https://www.bilibili.com/video/BV18m411k7rq/?spm_id_from=333.788.recommend_more_video.5&vd_source=93be23d03863773d50b81112985b9237)  
+[6.-用户、权限、菜单、组织管理等模块介绍](https://www.bilibili.com/video/BV18m411k7rq/?spm_id_from=333.788.recommend_more_video.5&vd_source=93be23d03863773d50b81112985b9237)  
 
-[7.唛盟-前端工程开发、部署流程介绍](https://www.bilibili.com/video/BV1ut421G7ec/?spm_id_from=333.788.recommend_more_video.5&vd_source=93be23d03863773d50b81112985b9237)  
+[7.-前端工程开发、部署流程介绍](https://www.bilibili.com/video/BV1ut421G7ec/?spm_id_from=333.788.recommend_more_video.5&vd_source=93be23d03863773d50b81112985b9237)  
 
-[8.唛盟-后端工程开发、部署流程介绍](https://www.bilibili.com/video/BV1hx421k7tm/?spm_id_from=333.788.recommend_more_video.5&vd_source=93be23d03863773d50b81112985b9237)  
+[8.-后端工程开发、部署流程介绍](https://www.bilibili.com/video/BV1hx421k7tm/?spm_id_from=333.788.recommend_more_video.5&vd_source=93be23d03863773d50b81112985b9237)  
 
-[8.1.唛盟-后端工程开发-mdp-core介绍](https://www.bilibili.com/video/BV1EC41187jE/?spm_id_from=333.788.recommend_more_video.8&vd_source=93be23d03863773d50b81112985b9237)  
+[8.1.-后端工程开发-mdp-core介绍](https://www.bilibili.com/video/BV1EC41187jE/?spm_id_from=333.788.recommend_more_video.8&vd_source=93be23d03863773d50b81112985b9237)  
 
-[8.2.唛盟-后端工程开发-控制层、服务层、dao层开发详细介绍](https://www.bilibili.com/video/BV1vu4m1T7V6/?spm_id_from=333.788.recommend_more_video.7&vd_source=93be23d03863773d50b81112985b9237)  
+[8.2.-后端工程开发-控制层、服务层、dao层开发详细介绍](https://www.bilibili.com/video/BV1vu4m1T7V6/?spm_id_from=333.788.recommend_more_video.7&vd_source=93be23d03863773d50b81112985b9237)  
 
-[8.3.唛盟-如何部署单体应用](https://www.bilibili.com/video/BV1df421d75w/?spm_id_from=333.788.recommend_more_video.2&vd_source=93be23d03863773d50b81112985b9237)  
+[8.3.-如何部署单体应用](https://www.bilibili.com/video/BV1df421d75w/?spm_id_from=333.788.recommend_more_video.2&vd_source=93be23d03863773d50b81112985b9237)  
 
-[9.1.唛盟-本地开发前后端如何对接的](https://www.bilibili.com/video/BV1Ym421n7Vh/?vd_source=93be23d03863773d50b81112985b9237)  
+[9.1.-本地开发前后端如何对接的](https://www.bilibili.com/video/BV1Ym421n7Vh/?vd_source=93be23d03863773d50b81112985b9237)  
 
-[9.2.唛盟-前端编译报错如何解决](https://www.bilibili.com/video/BV1PC411b7qY/?spm_id_from=333.788.recommend_more_video.6&vd_source=93be23d03863773d50b81112985b9237)  
+[9.2.-前端编译报错如何解决](https://www.bilibili.com/video/BV1PC411b7qY/?spm_id_from=333.788.recommend_more_video.6&vd_source=93be23d03863773d50b81112985b9237)  
 
-[9.4.唛盟-日志规范及如何快速定位问题](https://www.bilibili.com/video/BV1Hm421n7Qv/?spm_id_from=333.788.recommend_more_video.2&vd_source=93be23d03863773d50b81112985b9237)  
+[9.4.-日志规范及如何快速定位问题](https://www.bilibili.com/video/BV1Hm421n7Qv/?spm_id_from=333.788.recommend_more_video.2&vd_source=93be23d03863773d50b81112985b9237)  
 
-[10-唛盟-超强查询接口实现方案、原理解析](https://www.bilibili.com/video/BV1Ct421g72j/?vd_source=93be23d03863773d50b81112985b9237)  
+[10--超强查询接口实现方案、原理解析](https://www.bilibili.com/video/BV1Ct421g72j/?vd_source=93be23d03863773d50b81112985b9237)  
 
-[10.1-唛盟-复杂查询、多主键crud的实现方案、原理解析](https://www.bilibili.com/video/BV1KH4y1H7eM/?vd_source=93be23d03863773d50b81112985b9237)
+[10.1--复杂查询、多主键crud的实现方案、原理解析](https://www.bilibili.com/video/BV1KH4y1H7eM/?vd_source=93be23d03863773d50b81112985b9237)
 
-[11-唛盟-超强批量更新接口实现方案、原理解析](https://www.bilibili.com/video/BV1V1421D7z6/?vd_source=93be23d03863773d50b81112985b9237)  
+[11--超强批量更新接口实现方案、原理解析](https://www.bilibili.com/video/BV1V1421D7z6/?vd_source=93be23d03863773d50b81112985b9237)  
 
-[12-唛盟-多数据源的实现方案、常见问题解决办法解析](https://www.bilibili.com/video/BV1Zp421y7ty/?vd_source=93be23d03863773d50b81112985b9237)
+[12--多数据源的实现方案、常见问题解决办法解析](https://www.bilibili.com/video/BV1Zp421y7ty/?vd_source=93be23d03863773d50b81112985b9237)
 
-[13-唛盟-后端国际化多语言版的实现方案、原理解析](https://www.bilibili.com/video/BV1at421n7JW/?spm_id_from=333.337.search-card.all.click&vd_source=93be23d03863773d50b81112985b9237)
+[13--后端国际化多语言版的实现方案、原理解析](https://www.bilibili.com/video/BV1at421n7JW/?spm_id_from=333.337.search-card.all.click&vd_source=93be23d03863773d50b81112985b9237)
 
-[14-唛盟-流程整合、原理解析](https://www.bilibili.com/video/BV13x4y1v7qX/?vd_source=93be23d03863773d50b81112985b9237)
+[14--流程整合、原理解析](https://www.bilibili.com/video/BV13x4y1v7qX/?vd_source=93be23d03863773d50b81112985b9237)
 
-[15-唛盟-分布式数据字典的实现方案、使用示例详解](https://www.bilibili.com/video/BV1hE421g7FT/?spm_id_from=333.788&vd_source=93be23d03863773d50b81112985b9237)
+[15--分布式数据字典的实现方案、使用示例详解](https://www.bilibili.com/video/BV1hE421g7FT/?spm_id_from=333.788&vd_source=93be23d03863773d50b81112985b9237)
 
 
 ## 📢工程介绍
-👉[唛盟-工程结构介绍](https://www.bilibili.com/video/BV1Nu4m1T7hc/?spm_id_from=333.337.search-card.all.click&vd_source=93be23d03863773d50b81112985b9237)
+👉[-工程结构介绍](https://www.bilibili.com/video/BV1Nu4m1T7hc/?spm_id_from=333.337.search-card.all.click&vd_source=93be23d03863773d50b81112985b9237)
 >⚠️工程分类：主体工程、基础配套工程、高级配套工程、拓展应用工程、辅助开发工具五大类。  
 > 主体工程：本系统业务工程，用于书写本系统相关的业务代码；  
 > 基础配套工程：业务工程运行所需的必要工程；如开发底座，系统管理相关功能包  
 > 高级配套工程：高级应用，比如需要将业务工程接入oauth2环境、将业务工程发布到cloud环境，才需要下载安装高级配套工程   
-> 拓展应用工程： 基于唛盟低代码平台拓展的应用工程，其后端可以单体发布，也可以以微服务方式发布，也可以打成jar被唛盟其它应用引入   
+> 拓展应用工程： 基于低代码平台拓展的应用工程，其后端可以单体发布，也可以以微服务方式发布，也可以打成jar被其它应用引入   
 > 辅助开发工具：指开发用到的一些工具  
 
 >⚠️工程命名规范：业务名称+工程属性  
@@ -841,12 +841,12 @@ crontab -l
 > -oauth2: 统一认证中心   
 > -bootstrap: 打包部署工程
 
-### 唛盟主体工程
-唛盟属于前后端严格分离的一套系统，分为前端工程、后端工程两部分
+### 主体工程
+属于前后端严格分离的一套系统，分为前端工程、后端工程两部分
 - [mdp-lcode-ui-web](https://gitee.com/maimengcloud/mdp-lcode-ui-web)
-唛盟的前端工程,以vue.js为主
+的前端工程,以vue.js为主
 - [mdp-lcode-backend](https://gitee.com/maimengcloud/mdp-lcode-backend)
-唛盟的后端工程，java语言为主  
+的后端工程，java语言为主  
 
 ### 基础配套工程
 
@@ -867,4 +867,4 @@ crontab -l
   二、如果不需要本地生成代码，也可以在低代码平台在线生成。[在线生成代码](https://maimengcloud.com/lcode/#/mdp/lcode/gen)
 
 ### 拓展应用工程
-- 拓展应用工程： 基于唛盟低代码平台拓展的应用工程，其后端可以单体发布，也可以以微服务方式发布，也可以打成jar被唛盟其它应用引入   
+- 拓展应用工程： 基于低代码平台拓展的应用工程，其后端可以单体发布，也可以以微服务方式发布，也可以打成jar被其它应用引入   

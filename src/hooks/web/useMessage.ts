@@ -92,7 +92,7 @@ export const useMessage = () => {
         type: 'warning'
       })
     },
-    //通知提示，主要是兼容唛盟的tips:{isOk:Boolean,msg:'消息内容'}
+    //通知提示，主要是兼容的tips:{isOk:Boolean,msg:'消息内容'}
     notify(tips){
       if("isOk" in tips ){
         return ElNotification({message:tips.msg,type:tips.isOk?'success':'error'})
@@ -101,7 +101,7 @@ export const useMessage = () => {
       }
       
     },
-    //消息提示，主要是兼容唛盟的tips:{isOk:Boolean,msg:'消息内容'}
+    //消息提示，主要是兼容的tips:{isOk:Boolean,msg:'消息内容'}
     showTips(tips){
       if( "isOk" in tips ){
         return ElMessage({message:tips.msg,type:tips.isOk?'success':'error'})

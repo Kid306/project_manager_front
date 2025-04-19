@@ -62,6 +62,7 @@ export const usePermissionStore = defineStore('permission', {
         })
         // 渲染菜单的所有路由
         // 这里hidden就变成了true
+        debugger
         this.routers = allRouters
         resolve()
       })

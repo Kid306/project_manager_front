@@ -69,6 +69,7 @@ export const ascending = (arr: any[]) => {
     以上为前后端路由合并需要做的工作。
   */
 export const mergeRoutes = ( baseRouter: AppRouteRecordRaw[],routerMap:AppRouteRecordRaw[],menus:FuncMenu[],roleSet?:Set<string>):AppRouteRecordRaw[] => {
+  debugger
   //隐藏路由
   const baseRouterList=cloneDeep(baseRouter)
   const isSuperAdmin=roleSet?roleSet.has('superAdmin'):false 

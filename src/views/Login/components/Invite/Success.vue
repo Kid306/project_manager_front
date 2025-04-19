@@ -39,7 +39,8 @@
 </template>
 
 <script>
-import errGif from '@/assets/image/logo_cicle.png'
+// import errGif from '@/assets/image/logo_cicle.png'
+import errGif from '@/assets/image/return.png'
 
 export default {
   name: 'page401',

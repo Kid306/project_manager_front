@@ -2,7 +2,7 @@
 ![mdp-tree](/docs/images/ui-components/mdp-tree/mdp-tree.png)  
 ![mdp-tree-drag](/docs/images/ui-components/mdp-tree/mdp-tree-drag.png)  
 
-mdp-tree属于唛盟的懒加载树，相对于el-tree有以下改进:   
+mdp-tree属于的懒加载树，相对于el-tree有以下改进:   
 1. 实现前后端数据连通，提供crud接口即可，无须写多余的代码
 2. 提供本地过滤实现，无须写代码
 3. 懒加载实现，第一层默认进行缓存，多个页面共享不再担心性能问题

@@ -1,8 +1,6 @@
 {
   "name": "xm-ui-web",
   "version": "3.0.0",
-  "description": "唛盟项目管理系统 基于vue3、vite4、element-plus、typesScript",
-  "author": "广州擎勤网络科技有限公司",
   "private": false,
   "scripts": {
     "i": "pnpm install",

@@ -7,8 +7,8 @@
             <div class="right wl-1/2">
                
                 <div class="logo">
-                    <img src="@/assets/image/logo_cicle.png"/>
-                    <span>唛盟</span>
+                    <!-- <img src="@/assets/image/logo_cicle.png"/> -->
+                    <span></span>
                     
                 </div>
                 <div class="theme"> <ThemeSwitch @change="themeChange" style="float:right;"/></div>
@@ -30,7 +30,7 @@
                         
                             <div class="oper" v-if="status=='PwdLogin'">
                                 <el-link @click="status='ResetPwd'">忘记密码</el-link>
-                                <el-link @click="$refs['starDialog'].open({action:'DemoLogin'})"  class="btn">演示账户登录</el-link>
+                                <!-- <el-link @click="$refs['starDialog'].open({action:'DemoLogin'})"  class="btn">演示账户登录</el-link> -->
                                 <el-link @click="status='SmsLogin'"  class="btn">手机号登录</el-link> 
                             </div>
                         </div>
@@ -46,10 +46,10 @@
             </div>
         </div>
     </div>
-    <mdp-dialog ref="starDialog" width="600px" title="hi~同学，来支持一下【唛盟开源】吧，为项目点个Star!">
+    <mdp-dialog ref="starDialog" width="600px" title="hi~同学，来支持一下【开源】吧，为项目点个Star!">
             <el-row class="center">
                 <el-button size="large" @click="toStar" target="_blank" type="warning"
-                    icon="el-icon-star-off">唛盟项目</el-button>
+                    icon="el-icon-star-off">项目</el-button>
             </el-row>
             <template #footer="{ data, dialog }">
                 <el-button @click="dialog.close()">取消</el-button><el-button type="primary"
