@@ -63,13 +63,13 @@ export const ascending = (arr: any[]) => {
     1. 如果当前登录用户为超级管理员，无视上述两种机制，一律授权通过
 
     后端返回了其它子系统的菜单问题
-    1. 在前端全局配置项VITE_MODULE_SCOPE=[模块编号1,模块编号2]。设定本应用的模块范围，在设定范围内的动态菜单才允许放行，否则忽略
+    1. 在前端全局配置项VITE_MODULE_SCOPE=[模块编号1,模块编号2]。设定本应用的模块范围，在设定范围内的动态菜单debugger才允许放行，否则忽略
     2. 如果全局配置为空，则默认全部放行
     
     以上为前后端路由合并需要做的工作。
   */
 export const mergeRoutes = ( baseRouter: AppRouteRecordRaw[],routerMap:AppRouteRecordRaw[],menus:FuncMenu[],roleSet?:Set<string>):AppRouteRecordRaw[] => {
-  debugger
+  // debugger
   //隐藏路由
   const baseRouterList=cloneDeep(baseRouter)
   const isSuperAdmin=roleSet?roleSet.has('superAdmin'):false 

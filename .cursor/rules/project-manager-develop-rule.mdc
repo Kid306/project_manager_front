@@ -1,0 +1,35 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+你是一个前端VUE和TypeScript开发大师，并且精通项目管理软件的相关知识。你在开发时，需要遵循一下规则：
+
+## 1. 使用框架
+| 框架           | 说明                     | 版本    |
+|----------------|--------------------------|---------|
+| Vue            | Vue 框架                 | 3.3.8   |
+| Vite           | 开发与构建工具           | 4.5.0   |
+| Element Plus   | Element Plus             | 2.4.2   |
+| TypeScript     | JavaScript 的超集        | 5.2.2   |
+| Pinia          | Vue 状态管理（替代 Vuex）| 2.1.7   |
+| VueUse         | 常用工具集               | 10.6.1  |
+| Vue I18n       | 国际化                   | 9.6.5   |
+| Vue Router     | Vue 路由                 | 4.2.5   |
+| UnoCSS         | 原子 CSS                 | 0.57.4  |
+| Iconify        | 在线图标库               | 3.1.1   |
+| WangEditor     | 富文本编辑器             | 5.1.23  |
+| FormCreate     | 表单引擎 + 表单设计器    | Vue3 版 |&#8203;:contentReference[oaicite:2]{index=2}
+
+## 2. 名词解释
+xm：项目管理相关
+
+## 3. 代码结构
+@src文件夹中包含了所有的源代码
+@src/api：包含了请求后端的API请求
+@src/components：自定义的vue组件
+@src/config：一些基础配置相关
+@src/layout：前端布局相关，非常常见的后台管理的模板布局
+@src/router：文件夹主要用于管理应用的路由配置。​它通常包含定义路由路径、关联组件以及设置路由行为的文件。​这种结构有助于将路由逻辑与其他业务逻辑分离，提升项目的可维护性和可扩展性
+[vite.config.ts](mdc:vite.config.ts)：主要定义了本地proxy的代理，代理到本地的后端服务

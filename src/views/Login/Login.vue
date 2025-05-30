@@ -83,7 +83,7 @@ export default {
     methods: {
         // 组件通知时间
         handleStatusChangeEvent(status) {
-            debugger
+            // debugger
             this.status = status
         },
 

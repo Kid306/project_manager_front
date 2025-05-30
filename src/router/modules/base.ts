@@ -4,6 +4,7 @@ import xmCoreRouter from './xm_core'
 import xmDatavRouter from './xm_datav'
 // import xmProRouter from './xm_pro'
 import xmProxyRouter from './xm_proxy'
+import chatAgentRouter from './chat_agent'
 
 import profileRouter from './profile'
 
@@ -189,4 +190,5 @@ const allRouter:AppRouteRecordRaw[] = BaseRouter
 // .concat(xmProRouter)
 .concat(xmProxyRouter)
 .concat(baseWorkflowRouter)
+.concat(chatAgentRouter)
 export default allRouter
